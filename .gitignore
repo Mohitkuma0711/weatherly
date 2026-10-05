@@ -32,3 +32,4 @@ mongodb-memory-server/
 
 # Vercel
 .vercel/
+.vercel
