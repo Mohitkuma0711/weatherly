@@ -12,6 +12,7 @@ import historyRoutes from './routes/historyRoutes.js';
 import favoriteRoutes from './routes/favoriteRoutes.js';
 
 const app = express();
+app.set('trust proxy', 1);
 
 // Connect DB once per cold start
 let dbPromise = null;
